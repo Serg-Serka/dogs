@@ -10,11 +10,9 @@ class Sibainu implements Dog
         return 'Woof, woof!';
     }
 
-    public function hunt(): array
+    public function hunt(): string
     {
-        return [
-            'bear', 'wolf'
-        ];
+        return 'Sibainu hunts for bear and wolf!';
     }
 
 }

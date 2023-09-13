@@ -11,11 +11,10 @@ class Mops implements Dog
         return 'Woof, woof!';
     }
 
-    public function hunt(): array
+    public function hunt(): string
     {
-        return [
-            'lin',
-        ];
+        return 'Mops hunts for lin!';
+
     }
 
 }

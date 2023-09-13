@@ -10,9 +10,9 @@ class PlushLabrador implements Dog
         return '';
     }
 
-    public function hunt(): array
+    public function hunt(): string
     {
-        return [];
+        return '';
     }
 
 }

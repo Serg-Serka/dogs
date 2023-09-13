@@ -10,10 +10,8 @@ class Dachshund implements Dog
         return 'Woof, woof!';
     }
 
-    public function hunt(): array
+    public function hunt(): string
     {
-        return [
-            'fox', 'badger'
-        ];
+        return 'Dachshund hunts for fox and badger!';
     }
 }

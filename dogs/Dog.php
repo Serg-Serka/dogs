@@ -6,5 +6,5 @@ interface Dog
 {
     public function sound() :string;
 
-    public function hunt() :array;
+    public function hunt() :string;
 }

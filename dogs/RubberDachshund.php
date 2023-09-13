@@ -11,9 +11,9 @@ class RubberDachshund implements Dog
         return 'weeee!';
     }
 
-    public function hunt(): array
+    public function hunt(): string
     {
-        return [];
+        return '';
     }
 
 }
