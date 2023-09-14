@@ -1,7 +1,6 @@
 <?php
 
-namespace dogs;
-//require("dogs/Dog.php");
+namespace Dogs;
 
 class Sibainu implements Dog
 {

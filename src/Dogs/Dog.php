@@ -1,6 +1,6 @@
 <?php
 
-namespace dogs;
+namespace Dogs;
 
 interface Dog
 {

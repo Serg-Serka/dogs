@@ -1,13 +1,13 @@
 <?php
 
-namespace dogs;
-//require("dogs/Dog.php");
+namespace Dogs;
 
-class PlushLabrador implements Dog
+class RubberDachshund implements Dog
 {
+
     public function sound(): string
     {
-        return '';
+        return 'weeee!';
     }
 
     public function hunt(): string

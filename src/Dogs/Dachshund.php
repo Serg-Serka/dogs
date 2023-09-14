@@ -1,11 +1,9 @@
 <?php
 
-namespace dogs;
-//require("dogs/Dog.php");
+namespace Dogs;
 
-class Mops implements Dog
+class Dachshund implements Dog
 {
-
     public function sound(): string
     {
         return 'Woof, woof!';
@@ -13,8 +11,6 @@ class Mops implements Dog
 
     public function hunt(): string
     {
-        return 'Mops hunts for lin!';
-
+        return 'Dachshund hunts for fox and badger!';
     }
-
 }

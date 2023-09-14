@@ -1,13 +1,13 @@
 <?php
 
-namespace helpers;
+namespace Helpers;
 
-use dogs\Dachshund;
-use dogs\Dog;
-use dogs\Mops;
-use dogs\PlushLabrador;
-use dogs\RubberDachshund;
-use dogs\Sibainu;
+use Dogs\Dachshund;
+use Dogs\Dog;
+use Dogs\Mops;
+use Dogs\PlushLabrador;
+use Dogs\RubberDachshund;
+use Dogs\Sibainu;
 
 class Command
 {
@@ -79,7 +79,7 @@ class Command
     }
 
     /**
-     * List all dogs
+     * List all Dogs
      *
      * @return string
      */
