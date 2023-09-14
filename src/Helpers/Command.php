@@ -1,13 +1,13 @@
 <?php
 
-namespace Helpers;
+namespace App\Helpers;
 
-use Dogs\Dachshund;
-use Dogs\Dog;
-use Dogs\Mops;
-use Dogs\PlushLabrador;
-use Dogs\RubberDachshund;
-use Dogs\Sibainu;
+use App\Dogs\Dachshund;
+use App\Dogs\Dog;
+use App\Dogs\Mops;
+use App\Dogs\PlushLabrador;
+use App\Dogs\RubberDachshund;
+use App\Dogs\Sibainu;
 
 class Command
 {
@@ -42,7 +42,7 @@ class Command
      *
      * @return string|array
      */
-    protected function getCommand()
+    public function getCommand()
     {
         return $this->command;
     }
@@ -53,9 +53,30 @@ class Command
      * @param $command
      * @return void
      */
-    protected function setCommand($command) :void
+    public function setCommand($command) :void
     {
         $this->command = $command;
+    }
+
+    /**
+     * Get mappings
+     *
+     * @return array
+     */
+    public function getMappings(): array
+    {
+        return $this->mappings;
+    }
+
+    /**
+     * Set mappings
+     *
+     * @param array $mappings
+     * @return void
+     */
+    public function setMappings(array $mappings): void
+    {
+        $this->mappings = $mappings;
     }
 
     /**
@@ -99,7 +120,7 @@ class Command
      * @param $breed
      * @return Dog
      */
-    protected function createDog($breed) :Dog
+    public function createDog($breed) :Dog
     {
         return new $this->mappings['breeds'][$breed];
     }

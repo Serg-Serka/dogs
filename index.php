@@ -1,7 +1,7 @@
 <?php
 require "autoload.php";
 
-use Helpers\Command;
+use App\Helpers\Command;
 
 $welcomeMessage = "Welcome to the program!" . PHP_EOL
                 . "Here you can interact with Dogs and give them commands! Just try to type something like `mops sound`" . PHP_EOL

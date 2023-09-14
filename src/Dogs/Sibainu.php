@@ -1,6 +1,6 @@
 <?php
 
-namespace Dogs;
+namespace App\Dogs;
 
 class Sibainu implements Dog
 {
